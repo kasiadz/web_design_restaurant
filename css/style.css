@@ -1,0 +1,13 @@
+.jumbotron h1, .jumbotron p, .jumbotron hr, .jumbotron a {
+  margin: 30px; }
+
+.jumbotron hr {
+  background-color: azure; }
+
+div.jumbotron {
+  text-align: center;
+  border-radius: 0;
+  background: url("../img/botanical-close-up-dark-green-1190906.jpg") center/cover no-repeat;
+  color: azure; }
+
+/*# sourceMappingURL=style.css.map */
