@@ -1,14 +1,24 @@
-.jumbotron h1, .jumbotron p, .jumbotron hr, .jumbotron a {
-    margin: 30px;
+@import 'reset';
+@import 'variables';
+@import 'partials/head';
+@import 'partials/header';
 
+
+
+
+
+section {
+    padding: 3rem;
 }
 
-.jumbotron hr{
-    background-color: azure;
-}
-div.jumbotron {
-    text-align: center;
-    border-radius: 0;
-    background: url('../img/botanical-close-up-dark-green-1190906.jpg') center/cover no-repeat;
-    color: azure;
-}
+.containerS{
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+    width: 75%;
+    background-color: rgb(61, 61, 61);
+    }
+
+// .card-img-top {
+//     height: 100px;
+// }
