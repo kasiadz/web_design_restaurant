@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Titillium+Web');
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-size: 10px;
     background-color: $background;

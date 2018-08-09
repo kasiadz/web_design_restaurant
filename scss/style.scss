@@ -2,22 +2,10 @@
 @import 'variables';
 @import 'partials/head';
 @import 'partials/header';
+@import 'partials/main';
+@import 'partials/footer';
 
 
-
-
-
-section {
-    padding: 3rem;
-}
-
-.containerS{
-    position: relative;
-    margin: 0 auto;
-    height: 100%;
-    width: 75%;
-    background-color: rgb(61, 61, 61);
-    }
 
 // .card-img-top {
 //     height: 100px;

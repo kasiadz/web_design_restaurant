@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>MARCHEWKA Z GROSZKIEM</title>
 </head>
@@ -13,19 +14,19 @@
         <nav>
             <ul class="nav justify-content-end">
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">Start</a>
+                  <a class="nav-link" id="nav_start" href="#">Start</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">O nas</a>
+                  <a class="nav-link" id="nav_o_nas" href="#">O nas</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Menu</a>
+                  <a class="nav-link" id="nav_menu" href="#">Menu</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Oferta</a>
+                  <a class="nav-link" id="nav_oferta" href="#">Oferta</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Kontakt</a>
+                  <a class="nav-link" id="nav_kontakt" href="#">Kontakt</a>
                 </li>
               </ul>
         </nav>
@@ -34,80 +35,83 @@
             <img src="img/logo_ciemne.png" alt="logo marchewka z groszkiem" height="170px" width="170px">
             <h1 class="display-4">Marchewka z Groszkiem</h1>
             <p class="lead">DBAMY O SMAK TWOICH POTRAW</p>
-            <!-- <hr class="my-4"> -->
             <p>Lorem, ipsum dolor sit amet adipisicing elit. Et quo iure accusantium odio, voluptatum maiores accusamus perferendis quibusdam temporibus, illo alias eveniet tenetur rerum sed ut eligendi aliquid mollitia magnam.</p>
-            <!-- <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
           </div>
     </header>
 
     <main>
-        <div class="containerS">
+        <span class="containerS">
             <section>
                     <div class="container">
                             <div class="row">
-                                <div class="col-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit cum eaque possimus ex, vel minus mollitia consequuntur cupiditate consectetur eos quaerat veritatis sint in quis odio repellat dolor quas deleniti?</div>
-                                <div class="col-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsam sequi facilis necessitatibus nisi unde expedita iure natus magnam deleniti nesciunt nulla, ratione odit hic. Saepe est provident officiis voluptate!</div>
-                                <div class="col-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, quaerat amet quod minima ut nisi facilis. Commodi sit quae voluptatum temporibus eius, reprehenderit ratione, vero asperiores sequi, omnis itaque molestiae?</div>
+                                <div class="col-md" id="o_nas">
+                                    <h2>O NAS</h2>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit cum eaque possimus ex, vel minus mollitia consequuntur cupiditate consectetur eos quaerat veritatis sint in quis odio repellat dolor quas deleniti? Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, ut! Ea optio, voluptate alias magnam facere expedita doloribus voluptatibus nulla, nesciunt reprehenderit assumenda doloremque recusandae consequatur temporibus quidem, atque dolores.
+                                    </p>
+                                    <button type="button" class="btn btn-outline-light" id="btn_o_nas">Więcej</button>
+                                </div>
+                                <div class="col-md" id="o_nas_img">
+                                    <div class="img" ></div>
+                                </div>
                             </div>
                     </div>
             </section>
-        
             <section>
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <div class="card">
-                                <img class="card-img-top" src="img/bowls-cayenne-chili-54453.jpg" height="200" alt="Card image cap">
-                                <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <div class="container">
+                            <div class="row">
+                                <div class="col-md" id="menu_img">
+                                    <div class="img" ></div>
+                                </div>
+                                <div class="col-md" id="menu">
+                                    <h2>MENU</h2>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo earum molestias hic expedita aut aspernatur voluptates dolores, quas dolorum! Quisquam eum explicabo dignissimos itaque debitis tempore repudiandae quo rerum? Sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias odit delectus temporibus ab placeat veniam, non vero! Facere at ipsam assumenda necessitatibus nobis magni itaque voluptatum adipisci vel harum. Vero!
+                                    </p>
+                                    <button type="button" class="btn btn-outline-light" id="btn_menu">Więcej</button>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <img class="card-img-top" src="img/beverage-blur-breakfast-370018.jpg" height="200" alt="Card image cap">
-                                <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <img class="card-img-top" src="img/book-bindings-bookcase-books-694740.jpg" height="200" alt="Card image cap">
-                                <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <img class="card-img-top" src="img/pexels-photo-327098.jpeg" height="200" alt="Card image cap">
-                                <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-                        </div>
                     </div>
-                </div>
             </section>
-        </div>
+            <section>
+                    <div class="container">
+                            <div class="row">
+                                <div class="col-md" id="oferta">
+                                    <h2>OFERTA</h2>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti nemo quaerat similique? Aliquid ab nostrum animi fugit quos. Minima eos sed voluptates nisi voluptate, in illo expedita deleniti labore natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores sequi numquam qui consequatur, ipsa officia. Corrupti autem quas eum nemo, at omnis provident quod excepturi, unde, recusandae necessitatibus velit est!
+                                    </p>
+                                    <button type="button" class="btn btn-outline-light" id="btn_oferta">Więcej</button>
+                                </div>
+                                <div class="col-md" id="oferta_img">
+                                    <div class="img"></div>
+                                </div>
+                            </div>
+                    </div>
+            </section>
+        </span>
     </main>
     <footer>
-        <p>kasia</p>
+        <p>
+            <i class="fas fa-map-marker-alt"></i> <br>
+            ul. Lorem Ipsum 1 <br>
+            Kraków <br>
+            <!-- <i class="fas fa-phone"></i>  -->
+            tel. 000-000-000 <br>
+            kontakt@marchewkazgroszkiem.pl <br>
+        </p>
+       <div class="social">
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
     </footer>
 
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
 </body>
 </html>

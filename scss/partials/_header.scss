@@ -1,13 +1,30 @@
 nav {
     font-size: 1rem;
+    font-weight: 300;
     a {
         color: $navigation;
-        &:hover {
-            color: $nav-hover;
-            background-color: $nav-hover-bgr;
-        }
     }
+}
 
+#nav_start:hover{
+    color: $navigation;
+    background-color: $social;
+}
+#nav_o_nas:hover{
+    color: $navigation;
+    background-color: $o-nas;
+}
+#nav_menu:hover{
+    color: $navigation;
+    background-color: $menu;
+}
+#nav_oferta:hover{
+    color: $navigation;
+    background-color: $oferta;
+}
+#nav_kontakt:hover{
+    color: $navigation;
+    background-color: $social;
 }
 
 div.jumbotron {
@@ -17,19 +34,17 @@ div.jumbotron {
     color: $text-jumbotron;
     margin-bottom: 0rem;
     
-
     h1 {
         font-family: 'Lobster', cursive;
     }
     
+    p.lead {
+        font-weight: 400;
+        font-size: 1.6rem;
+    }
     p {
         font-size: 1rem;
-        font-weight: 300;
         margin: 1.2rem auto;
         width: 55%;
-    }
-    p.lead{
-        font-weight: 400;
-        font-size: 1rem;
     }
 }

@@ -1,0 +1,31 @@
+footer {
+    min-height: 20vh;
+    padding: 2rem;
+    font-size: 1.1rem;
+    font-weight: 300;
+    background-color: $footer;
+
+    p {
+        text-align: center;
+        line-height: 1.2rem;
+        margin:1rem;
+
+        i {
+            margin: .5rem;
+            font-size: 2rem;
+        }
+    }
+
+    .social {
+        text-align: center;
+        font-size: 2rem;
+        a {
+            color: $text;
+            margin: 0 .3rem;
+            &:hover{
+                color: $social;
+            }
+        }
+    }
+}
+

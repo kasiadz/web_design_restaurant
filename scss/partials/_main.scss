@@ -1,0 +1,70 @@
+.containerS{
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+    width: 75%;
+    //background-color: $containerS;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    margin: 2rem auto;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+
+    h2 {
+        font-size: 1.6rem;
+        margin: 1.2rem;
+        margin-top: 3rem;
+        // font-weight: 400;
+    }
+    button {
+        margin: 2rem;
+        border-radius: 0%;
+    }   
+}
+
+#btn_o_nas:hover{
+    color: $o_nas;
+}
+
+#btn_menu:hover{
+    color: $menu;
+}
+
+#btn_oferta:hover{
+    color: $oferta;
+}
+
+#o_nas {
+    background-color: $o-nas;
+}
+
+#menu {
+    background-color: $menu;
+}
+
+#oferta {
+    background-color: $oferta;
+}
+
+div.img {
+    position: relative;
+    width: 100%;
+    min-height: 50vh;
+    margin:0;
+}
+
+#o_nas_img {
+    background: url('../img/o_nas.jpg') center/cover no-repeat;
+}
+
+#menu_img {
+    background: url('../img/menu.jpg') center/cover no-repeat;
+}
+
+#oferta_img {
+    background: url('../img/oferta.jpg') center/cover no-repeat;
+}

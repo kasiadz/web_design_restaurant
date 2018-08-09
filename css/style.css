@@ -46,20 +46,41 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+* {
+  box-sizing: border-box; }
+
 body {
   font-size: 10px;
   background-color: #242424;
-  color: azure;
+  color: white;
   font-size: 1.4rem;
   font-family: 'Lato', sans-serif; }
 
 nav {
-  font-size: 1rem; }
+  font-size: 1rem;
+  font-weight: 300; }
   nav a {
-    color: azure; }
-    nav a:hover {
-      color: #242424;
-      background-color: azure; }
+    color: white; }
+
+#nav_start:hover {
+  color: white;
+  background-color: #727272; }
+
+#nav_o_nas:hover {
+  color: white;
+  background-color: #cc4747; }
+
+#nav_menu:hover {
+  color: white;
+  background-color: #84c052; }
+
+#nav_oferta:hover {
+  color: white;
+  background-color: #e2953d; }
+
+#nav_kontakt:hover {
+  color: white;
+  background-color: #727272; }
 
 div.jumbotron {
   text-align: center;
@@ -69,23 +90,88 @@ div.jumbotron {
   margin-bottom: 0rem; }
   div.jumbotron h1 {
     font-family: 'Lobster', cursive; }
-  div.jumbotron p {
-    font-size: 1rem;
-    font-weight: 300;
-    margin: 1.2rem auto;
-    width: 55%; }
   div.jumbotron p.lead {
     font-weight: 400;
-    font-size: 1rem; }
-
-section {
-  padding: 3rem; }
+    font-size: 1.6rem; }
+  div.jumbotron p {
+    font-size: 1rem;
+    margin: 1.2rem auto;
+    width: 55%; }
 
 .containerS {
   position: relative;
   margin: 0 auto;
   height: 100%;
-  width: 75%;
-  background-color: #3d3d3d; }
+  width: 75%; }
+
+.container {
+  position: relative;
+  width: 100%;
+  margin: 2rem auto;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 300; }
+  .container h2 {
+    font-size: 1.6rem;
+    margin: 1.2rem;
+    margin-top: 3rem; }
+  .container button {
+    margin: 2rem;
+    border-radius: 0%; }
+
+#btn_o_nas:hover {
+  color: #cc4747; }
+
+#btn_menu:hover {
+  color: #84c052; }
+
+#btn_oferta:hover {
+  color: #e2953d; }
+
+#o_nas {
+  background-color: #cc4747; }
+
+#menu {
+  background-color: #84c052; }
+
+#oferta {
+  background-color: #e2953d; }
+
+div.img {
+  position: relative;
+  width: 100%;
+  min-height: 50vh;
+  margin: 0; }
+
+#o_nas_img {
+  background: url("../img/o_nas.jpg") center/cover no-repeat; }
+
+#menu_img {
+  background: url("../img/menu.jpg") center/cover no-repeat; }
+
+#oferta_img {
+  background: url("../img/oferta.jpg") center/cover no-repeat; }
+
+footer {
+  min-height: 20vh;
+  padding: 2rem;
+  font-size: 1.1rem;
+  font-weight: 300;
+  background-color: #333333; }
+  footer p {
+    text-align: center;
+    line-height: 1.2rem;
+    margin: 1rem; }
+    footer p i {
+      margin: .5rem;
+      font-size: 2rem; }
+  footer .social {
+    text-align: center;
+    font-size: 2rem; }
+    footer .social a {
+      color: white;
+      margin: 0 .3rem; }
+      footer .social a:hover {
+        color: #727272; }
 
 /*# sourceMappingURL=style.css.map */
